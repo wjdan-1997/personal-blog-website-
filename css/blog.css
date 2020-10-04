@@ -22,10 +22,8 @@
 
 #pic {
     background-image: url(..//images/photo-1524562787295-1608217aa823.jpg);
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
     background-attachment: fixed;
-
 }
 
 .pic {
