@@ -1,0 +1,49 @@
+@import "footer.css";
+@import "header.css";
+@import "layout.css";
+
+@media (min-width:900px) {
+    .container-blog {
+        display: grid;
+        grid-gap: 55px;
+        grid-template-columns: auto;
+        grid-template-rows: 650px;
+        grid-template-areas:
+
+
+            "sd sd sd sd sd sd hd "
+        ;
+    }
+}
+
+.box {
+    border: 1px solid white;
+}
+
+#pic {
+    background-image: url(..//images/photo-1524562787295-1608217aa823.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.pic {
+    grid-area: sd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.about-me {
+    grid-area: hd;
+    background-color: #c095bd28;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+ul>li {
+    list-style: none;
+    line-height: 40px;
+}

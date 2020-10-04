@@ -1,0 +1,39 @@
+@media(min-width:900px) {
+    header {
+        position: static;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 12px;
+        background-color: #b1a0ba;
+
+    }
+
+}
+
+@media(max-width:899px) {
+    header {
+        position: static;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        padding: 12px;
+        background-color: #b1a0ba;
+
+    }
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    margin: 9px 9px 9px 9px;
+    padding: 9px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    color: rgb(252, 146, 164);
+}

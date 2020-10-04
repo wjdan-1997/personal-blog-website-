@@ -1,0 +1,213 @@
+@import "footer.css";
+@import "navbar.css";
+@import "layout.css";
+
+body {
+    background-color: rgb(250, 249, 249);
+    color: black;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* laptop/descktop screen */
+/* if(x >= 700) */
+@media (min-width: 1250px) {
+    .containerGrid {
+
+        display: grid;
+        grid-gap: 5px 5px;
+        margin: 10px 10px 10px 10px;
+        grid-template-columns: auto;
+        grid-template-rows: 390px 6px 390px 270px;
+        grid-template-areas:
+            "sd sd  sd  main main main  "
+            "hd hd hd hd hd hd  "
+            "im im im  ii ii ii "
+            " ft ft ft ft ft ft ";
+    }
+}
+
+/* tablet screen */
+/* if (x >= 400 && x <= 699) */
+@media (min-width: 724px) and (max-width: 1249px) {
+    .containerGrid {
+
+        display: grid;
+        grid-gap: 5px 5px;
+        margin: 10px 10px 10px 10px;
+        grid-template-columns: auto;
+        grid-template-rows: 590px 6px 590px 270px;
+        grid-template-areas:
+            "sd sd  sd  main main main  "
+            "hd hd hd hd hd hd  "
+            "im im im  ii ii ii "
+            " ft ft ft ft ft ft ";
+    }
+}
+
+/* mobile screen */
+@media (max-width: 723px) {
+    /* .containerGrid {
+        display: grid;
+        grid-gap: 5px 5px;
+        margin: 10px 10px 10px 10px;
+        grid-template-columns: auto;
+        grid-template-rows: 350px 6px 390px 270px 0px;
+        grid-template-areas:
+
+
+
+            "sd sd  sd  main main main  "
+            "hd hd hd hd hd hd  "
+            "im im im  ii ii ii "
+            " ft ft ft ft ft ft ";
+
+    } */
+}
+
+
+/* .box {
+    border: 1px solid rgb(199, 23, 23);
+    background-color: rgb(226, 235, 230);
+} */
+
+#pic-medina {
+    background-image: url(..//images/mednia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.medina {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 22px;
+    margin: 40px;
+    text-align: center;
+}
+
+#pic-mecca {
+    background-image: url(..//images/2007626-287807119.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.mecca {
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 40px;
+    border-radius: 22px;
+    text-align: center;
+
+}
+
+#pic-jeddah {
+    background-image: url(../images/jeddah.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jeddah {
+    background-color: rgba(0, 0, 0, 0.589);
+    text-align: center;
+    margin: 40px;
+    border-radius: 22px;
+
+}
+
+.riyadh {
+    background-color: rgba(0, 0, 0, 0.308);
+    margin: 40px;
+    text-align: center;
+    border-radius: 22px;
+
+}
+
+#pic-riyadh {
+    background-image: url(..//images/riyadh-new.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* contact us */
+
+.info {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#pic-contact {
+    background-image: url(../images/Ryiadh-916x516.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+input[type=submit] {
+    width: 50%;
+    max-width: 200px;
+    background-color: #a7a8b1;
+    color: black;
+    padding: 9px 9px;
+    margin: 5px 1px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.icon {
+    padding: 5px;
+    margin: 5px;
+    width: 1%;
+    font-size: 24px
+}
+
+input[type=submit]:hover {
+    background-color: transparent;
+    color: black;
+    transform: scale(0.9);
+}
+
+input[type=text],
+input[type=email],
+input[type=number] {
+    width: 50%;
+    max-width: 250px;
+    background-color: #d8d9e0;
+    padding: 9px 9px;
+    margin: 5px 1px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* The Grid Areas */
+
+.img-jeddah {
+    grid-area: sd;
+}
+
+.img-riyadh {
+    grid-area: main;
+}
+
+.hd {
+    grid-area: hd;
+}
+
+.img-medina {
+    grid-area: im;
+}
+
+.img-mecca {
+    grid-area: ii;
+}
+
+.contact {
+    grid-area: ft;
+}

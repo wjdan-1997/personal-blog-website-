@@ -1,0 +1,39 @@
+@media (min-width:900px) {
+    footer {
+        position: static;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-size: 19px;
+        background-color: #b1a0ba;
+        width: 100%;
+        padding: 2px;
+
+    }
+}
+
+@media(max-width:899px) {
+    footer {
+        position: static;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+        font-size: 19px;
+        background-color: #b1a0ba;
+        width: 100%;
+        padding: 2px;
+
+    }
+}
+
+.fo {
+    padding: 10px 10px 10px;
+    width: 50px;
+    color: black;
+}
+
+.fo:hover {
+    color: rgb(252, 146, 164);
+}

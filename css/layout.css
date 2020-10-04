@@ -1,0 +1,58 @@
+h1,
+h2,
+h3 {
+    color: rgb(182, 165, 204);
+    font-size: 24px;
+}
+
+h4,
+h5,
+h6 {
+    font-size: 18px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+article {
+    color: black;
+    line-height: 28px;
+    line-height: 40px;
+}
+
+strong {
+    color: white;
+    font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*style button mecca and medina*/
+button {
+    background-color: #e6d8e391;
+    color: black;
+    font-size: 15px;
+    padding: 16px 20px;
+    cursor: pointer;
+    border-radius: 22px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+button a:hover {
+    color: #855c9b;
+}
